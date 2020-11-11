@@ -1,7 +1,8 @@
+import Checkout from './pages/Checkout'
 function App() {
   return (
     <div className="App">
-      <h1>Hello World</h1>
+     <Checkout buttonLabel={"name"}  className={"primary"}/>
     </div>
   );
 }
