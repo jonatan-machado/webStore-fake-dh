@@ -1,0 +1,73 @@
+.home_grid {
+    max-width: 1400px;
+}
+
+.pop_img {
+  position: relative;
+}
+.pop_img button {
+  /* badges/red copy */
+
+  position: absolute;
+  width: 57px;
+  height: 26px;
+
+  /* bg */
+
+  position: absolute;
+  left: 20px;
+  right: 0%;
+  top: 20px;
+  bottom: 0%;
+
+  background: #fe5c07;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+
+  color: #ffffff;
+  padding: 0;
+}
+.pop_text { text-align: center; }
+.pop_text .title {
+  text-align: center;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+   margin-top: 45px;
+  color: #2e2e2e;
+}
+.pop_text .subtitle {
+  text-align: center;
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #2e2e2e;
+  margin-bottom: 35px;
+}
+.pop_text button {
+  background: #f62f5e;
+  border-radius: 24px;
+
+  /* Call to Action */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+
+  color: #ffffff;
+}

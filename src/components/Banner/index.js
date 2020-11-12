@@ -5,7 +5,7 @@ import "./styles.css"
 
 function Banner() {
   return (
-    <div className="container-fluid home_banner p-0">
+    <div className="container-fluid home_banner pl-0 pr-0">
       <div className="container">
         <div className="row">
           <div className="col-12 col-md-7">
