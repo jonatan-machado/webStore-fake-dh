@@ -1,0 +1,64 @@
+.home_banner {
+  background: #fff url(../../assets/images/banner.svg) center right / cover
+    no-repeat;
+}
+
+.btn {
+  /* buttons/medium/white */
+  width: 163px;
+  height: 48px;
+
+  /* bg */
+  background: #ffffff;
+  border-radius: 24px;
+
+  /* Call to Action */
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  /* identical to box height, or 150% */
+  text-align: center;
+
+  color: #f62f5e;
+}
+
+h1 {
+  /* Background */
+
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 72px;
+  /* or 150% */
+  letter-spacing: 2px;
+
+  color: #ffffff;
+}
+h1 i {
+  /* and */
+  font-family: Playfair Display;
+  font-style: italic;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 72px;
+  /* identical to box height, or 150% */
+  letter-spacing: 2px;
+
+  color: #ffffff;
+}
+h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 1px;
+
+  color: #ffffff;
+
+  mix-blend-mode: normal;
+  opacity: 0.9;
+}

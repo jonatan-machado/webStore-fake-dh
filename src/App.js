@@ -1,4 +1,6 @@
-import Checkout from './pages/Checkout'
+import Routes from "./Routes";
+import Checkout from "./pages/Checkout";
+
 function App() {
   return (
     <div className="App">
