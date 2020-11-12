@@ -1,3 +1,4 @@
+import { useState } from 'react';
 import { Container, Row, Col } from 'reactstrap';
 
 import ProductImage from '../../assets/ProductImage.svg';
@@ -8,6 +9,17 @@ import ProductDetail3 from '../../assets/ProductDetail3.svg';
 import './styles.css';
 
 function Product() {
+
+  const [qtd, setQtd] = useState(0);
+
+  function addQtd(){
+    setQtd(qtd+1)
+  }
+  function removeQtd(){
+    if(qtd <= 0) return;
+    setQtd(qtd-1)
+  }
+
   return (
     <Container>
       <div className="product-page">
@@ -94,9 +106,9 @@ function Product() {
             <Row>
               <div className="description-qtd">
                 <h4>Quantity</h4>
-                <span class="dot dot-qtd-minus">-</span>
-                <span class="dot dot-qtd">2</span>
-                <span class="dot dot-qtd-plus">+</span>
+                <span class="dot dot-qtd-minus" onClick={removeQtd}>-</span>
+                <span class="dot dot-qtd">{qtd}</span>
+                <span class="dot dot-qtd-plus" onClick={addQtd}>+</span>
               </div>
             </Row>
             <Row>
@@ -107,16 +119,35 @@ function Product() {
             </Row>
           </Col>        
         </Row>
+      </div>
+        
+      <div className="products-review">
+
         <Row>
-          <h3>Product Reviews</h3>
-          <Col xs="3">
-            <p>Stars</p>
-            <p>One hour ago</p>
-          </Col>
-          <Col xs="9">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit ab doloremque nisi praesentium sequi porro neque mollitia. Illo, architecto voluptas, labore, repellat voluptatem atque cum obcaecati quaerat voluptate facere quidem.</p>  
-          </Col>          
+          <div className="title">
+            <h3>Product Reviews</h3>
+          </div>
         </Row>
+        <Row>
+          <div className="products-review-details">
+            <Col xs="3">
+              <div className="stars">
+                <p>Stars</p>
+                <p>One hour ago</p>
+              </div>
+            </Col>
+            <Col xs="9">
+              <div className="description">
+                <p>Got this through the post the other day and right from opening the packet I knew this was quality, put it on and I was right!! Well done</p>  
+              </div>
+            </Col>
+          </div>
+
+        </Row>
+      </div>
+
+      {/* <div className="add-review">
+
         <Row>
           <Row>
             <h3>Add Review</h3>
@@ -128,7 +159,9 @@ function Product() {
             </Col>
           </Row>
         </Row>
-      </div>
+
+      </div> */}
+
     </Container>
    )
 }
