@@ -3,9 +3,13 @@ import Checkout from "./pages/Checkout";
 
 function App() {
   return (
-    <div className="App">
-     <Checkout buttonLabel={"name"}  className={"primary"} />
-    </div>
+
+    <>
+      <div className="App">
+        <Checkout buttonLabel={"name"} className={"primary"} />
+      </div>
+      <Routes />;
+    </>
   );
 }
 
