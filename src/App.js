@@ -7,7 +7,7 @@ function App() {
       <div className="App">
         <Checkout buttonLabel={"name"} className={"primary"} />
       </div>
-      <Routes />;
+      <Routes />
     </>
   );
 }

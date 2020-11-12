@@ -1,0 +1,42 @@
+.home_footer {
+  background: #fff url(../../assets/images/converse.svg) bottom right / cover
+    no-repeat;
+  padding: 60px 0 130px;
+}
+.home_footer h1 {
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 1.5;
+  letter-spacing: 2px;
+  color: #ffffff;
+}
+
+.home_footer h2 {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 36px;
+  letter-spacing: 1px;
+  color: #ffffff;
+  mix-blend-mode: normal;
+  opacity: 0.9;
+}
+.home_footer button {
+    background: #ffffff;
+    border-radius: 24px;
+    font-family: Montserrat;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #f62f5e;
+    margin-top: 40px;
+    padding: 15px 40px;
+    width: auto;
+    height: auto;
+    border-radius: 50px;
+}
